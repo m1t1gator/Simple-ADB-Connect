@@ -1,0 +1,9 @@
+# Ignore log files
+adb-logs/
+
+# General Linux ignores
+*.swp
+*.bak
+*.tmp
+*~
+.DS_Store
