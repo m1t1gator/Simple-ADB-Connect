@@ -1,6 +1,7 @@
-Simple ADB Connect
+#Simple ADB Connect
 A user-friendly Bash script for connecting to Android devices via ADB (Android Debug Bridge) in a Crostini environment (Linux container on ChromeOS). It supports both USB and wireless pairing, with a menu-driven interface for pairing, connecting, listing, and disconnecting devices.
-Features
+
+#Features
 
 Installs ADB if not present (requires sudo and apt access).
 Supports USB and wireless (Android 11+) device pairing.
@@ -8,14 +9,14 @@ Validates IP addresses and checks ADB command success.
 Logs actions to $HOME/adb-logs for auditing.
 Provides security reminders to disable debugging after use.
 
-Requirements
+#Requirements
 
 Crostini environment on ChromeOS with apt access.
 Android device with USB or wireless debugging enabled.
 Network connectivity (e.g., 192.168.1.0/24) for wireless pairing.
 USB passthrough enabled in Crostini for USB pairing (if needed).
 
-Installation
+#Installation
 
 Clone the repository:git clone https://github.com/your-username/simple-adb-connect.git
 cd simple-adb-connect
@@ -25,7 +26,7 @@ Make the script executable:chmod +x simple_adb_connect.sh
 
 
 
-Usage
+#Usage
 
 Run the script:./simple_adb_connect.sh
 
