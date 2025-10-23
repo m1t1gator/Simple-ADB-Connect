@@ -19,7 +19,7 @@ USB passthrough enabled in Crostini for USB pairing (if needed).
 
 Installation
 
-Clone the repository:git clone https://github.com/your-username/simple-adb-connect.git
+Clone the repository:git clone https://github.com/m1t1gator/simple-adb-connect.git
 cd simple-adb-connect
 
 
